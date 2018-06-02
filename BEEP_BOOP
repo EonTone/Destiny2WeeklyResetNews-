@@ -1,0 +1,16 @@
+global.lemmingPrefs = {
+	redditConfig: {
+		userAgent: '/u/yourname and description of what this does.',
+		oauth: {
+			type: 'script',
+			key: '<KEY>',
+			secret: '<SECRET>',
+			username: '<BOTRAWR>',
+			password: '<BOTRAWR>',
+			// make sure to set all the scopes you need.
+			scope: ['account', 'creddits', 'edit', 'flair', 'history', 'identity', 'livemanage', 'modconfig', 'modcontributors', 'modflair', 'modlog', 'modmail', 'modothers', 'modposts', 'modself', 'modwiki', 'mysubreddits', 'privatemessages', 'read', 'report', 'save', 'submit', 'subscribe', 'vote', 'wikiedit', 'wikiread']
+		}
+	},
+  checkSub: 'https://www.reddit.com/r/DestinyTheGame/comments/8n0pyg/d2_weekly_reset_thread_20180529/',
+  webhookUrl: 'https://discordapp.com/api/webhooks/452330195278495746/UMurTaOYSESNJ7fqOTEWsLeOYHSD3f52CFETMUXw8BgsqfL34hGsQmegQwg2lQ7cALbv'
+} 
